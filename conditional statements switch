@@ -1,5 +1,4 @@
 function getMembershipPerks(mLevel) {
-/* Your switch statement should be written below this line.*/
   switch(mLevel) {
     case 'gold':
       console.log('Unlimited Free Plays');
@@ -15,5 +14,4 @@ function getMembershipPerks(mLevel) {
   }
 }
 
-getMembershipPerks('silver');
-/* After you make changes, you will need to click the Run button on the upper right. Auto-updating preview has been turned off for this Codepen. */
+getMembershipPerks('gold');
